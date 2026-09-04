@@ -1,0 +1,330 @@
+@font-face {
+    font-family: Nimbus Sans L;
+    src: url(./assets/nimbus-sans-l.regular.otf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Nimbus Sans L";
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+
+*::selection{
+    background-color: #000;
+    color: #989598;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+}
+
+.nav {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 5vw;
+
+}
+
+a {
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.nav .Nleft {
+    display: flex;
+    gap: 2vw;
+}
+
+#centeratag {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero {
+    width: 100%;
+    margin-top: 15vw;
+    padding: 0vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sustain {
+    width: 10.5vw;
+}
+
+#sustain p {
+    font-size: 14px;
+    text-transform: capitalize;
+    opacity: .5;
+    margin: 10px 0;
+    font-weight: 800;
+}
+
+#sustain #SusImgWpr {
+    height: 15vw;
+    width: 100%;
+}
+
+#SusImgWpr img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#ephem {
+    position: relative;
+    width: 25vw;
+    min-height: 35vw;
+
+}
+
+
+#ephem #heading {
+    top: -10.5vw;
+    left: -4vw;
+    position: absolute;
+}
+
+#ephem h1 {
+    font-size: 5.5vw;
+    font-weight: 400;
+    letter-spacing: -.3vw;
+    line-height: 1;
+    
+}
+
+#ephem img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#ephem p {
+
+    font-size: 20px;
+    width: 75%;
+    letter-spacing: -.1vw;
+}
+
+
+#visit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #aca6ac;
+}
+
+
+#circleV {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5vw;
+    height: 3.5vw;
+    border: 1.5px solid #aca6ac;
+    color: #615c61;
+    border-radius: 50%;
+    transition: all ease 1s;
+}
+
+#circleV:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+#motive {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+    padding: 3vw 5vw;
+}
+
+#motive p {
+    position: relative;
+    right: 0;
+    width: 75%;
+    font-size: 2vw;
+    text-align: right;
+}
+
+#motive span{
+    display: inline-block;
+    height: 38px;
+    width: 80px;
+    border-radius: 22px;
+    margin: 0 10px;
+    margin-bottom: -11.5px;
+}
+
+#onespan {
+    width: 100px;
+    height: 50px;
+    background-image: url(./bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+#twospan {
+    width: 120px;
+    height: 50px;
+    background-image: url(./shaljam.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+}
+#threespan {
+    width: 80px;
+    height: 50px;
+    background-image: url(./grass.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
+.pic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+}
+
+#firstpic{
+    width: 16vw;
+}
+
+#firstpic #picimg{
+    height:24vw;
+    margin-bottom: 1vw;
+}
+
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#firstpic h1, #secpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 3vw;
+}
+
+
+#firstpic p, #secpic p{
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: .8;
+}
+
+#secpic p{
+    text-align: end;
+    width: 80%;
+}
+
+#secpic{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 25vw;
+}
+
+
+#secpic #picimg{
+    width: 100%;
+    height:36vw;
+    margin-bottom: 1vw;
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+}
+
+#bimg{
+    width: 60%;
+    height: 50vh;
+    background-color: red;
+}
+
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-position: 0% 70%;
+    object-fit: cover;
+}
+
+#btext{
+    width: 40%;
+    padding: 0 3vw;
+}
+
+#btext h1{
+    font-size: 3vw;
+    font-weight: 400;
+    letter-spacing: -.1vw;
+    line-height: 1;
+}
+
+#btext p {
+    margin-top: 16px;
+    width: 54%;
+}
+
+#future{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    height: 100vh;
+}
+
+#future video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    opacity: 0;
+}
+
+#ftext{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    padding: 1vw;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+#ftext button{
+    padding: 1vw 1.3vw;
+    font-size: .8vw;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 100px;
+    border: 1px solid #5e5e5e;
+    color: #8a838a;
+}
