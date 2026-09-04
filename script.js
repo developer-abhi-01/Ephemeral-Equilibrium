@@ -8,6 +8,7 @@ const scroll = new LocomotiveScroll({
 gsap.from(".Nlink", {
     stagger: .1,
     y: 10,
+    delay:1,
     duration: 1,
     ease: "power4.inOut",
     opacity: 0,
@@ -29,6 +30,7 @@ gsap.from(".anim2", {
     stagger: .3,
     opacity: 0,
     duration: 1,
+    delay:1,
     ease: "power4.inOut",
 })
 
